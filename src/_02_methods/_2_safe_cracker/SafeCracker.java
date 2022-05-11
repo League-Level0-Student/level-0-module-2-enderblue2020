@@ -26,8 +26,10 @@ public class SafeCracker {
 
 	void crackTheSafe() {
 		
-	for(int i=0; i<100; i++)
-		tryCode(new Random().nextInt(9999899));
+	for(int i=0; i<10000000; i++)
+	{
+		tryCode(i);
+	}
 	}
 
 	 void tryCode(int guess) {
