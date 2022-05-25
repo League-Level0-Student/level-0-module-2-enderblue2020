@@ -32,9 +32,9 @@ public class StringsCannotAdd {
 			// Did you notice the value 10? If so, hurray! You just changed the type of your variable from String to int.
 			
 			// 9) Convert fiveAsString to fiveAsInt using Integer.parseInt();  
-			
+			int fiveAsInt = Integer.parseInt(fiveAsString);
 			// 10) Print the addition of fourAsInt, sixAsInt, and fiveAsInt using JOptionPane 
-			
+			JOptionPane.showMessageDialog(null, fourAsInt + sixAsInt + fiveAsInt);
 			// Is your value now 15 instead of 465?
 }
 }
